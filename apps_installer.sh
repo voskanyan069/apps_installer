@@ -15,7 +15,7 @@ sudo apt-get install -y thunderbird
 
 # Snap packages
 sudo snap install telegram-desktop
-sudo snap install code
+sudo snap install code --classic
 sudo snap install spotify
 sudo snap install scratux
 
@@ -29,7 +29,7 @@ rm ./zoom_amd64.deb
 rm jetbrains-toolbox-1.19.7784.tar.gz
 cd $HOME
 
-# Browser
+# Browsers
 sudo apt-get install -y chromium-browser
 wget -qO- http://repo.vivaldi.com/stable/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb [arch=i386,amd64] http://repo.vivaldi.com/stable/deb/ stable main"
