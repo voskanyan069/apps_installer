@@ -20,7 +20,7 @@ sudo snap install spotify
 sudo snap install scratux
 
 # From server
-cd ~/Downloads
+cd $HOME/Downloads
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo apt-get install -y ./zoom_amd64.deb
 wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.19.7784.tar.gz
